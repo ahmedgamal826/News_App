@@ -34,8 +34,8 @@ class CategoryCard extends StatelessWidget {
             child: Text(
               category.categoryName,
               style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
+                  color: Colors.black,
+                  fontSize: 10,
                   fontWeight: FontWeight.bold),
             ),
           ),

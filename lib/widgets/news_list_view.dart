@@ -20,6 +20,8 @@ class NewsListView extends StatelessWidget {
             padding: const EdgeInsets.only(bottom: 22),
             child: NewsTile(
               articleModel: articles[index],
+              categoryName: '',
+              imageUrl: '',
             ),
           );
         },
